@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
@@ -78,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
         timerSeekbar.setMax(600);
         timerSeekbar.setProgress(30);
-
+        Log.i("Testing Commit", "Commit Success");
         timerSeekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
