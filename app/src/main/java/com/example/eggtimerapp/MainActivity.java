@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
         timerSeekbar.setMax(600);
         timerSeekbar.setProgress(30);
-        Log.i("Testing Commit", "Commit Success");
+        Log.i("Testing Commit", "Ok Commit Success");
         timerSeekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
